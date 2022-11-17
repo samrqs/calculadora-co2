@@ -25,8 +25,13 @@ while inicio == "1":
         consumo_mwh = consumo * 0.001 #Transformando KWh por MWh
         emissao = emissao_anual(consumo_mwh) #Calculo de emissão por ano pela função
       
+<<<<<<< HEAD
         print('Emissão de Co2 por ano:',(emissao),'tCo2.')
         print('Emissão de Co2 por mês:',(emissao_mensal(emissao)),'tCo2.')
+=======
+        print('Emissão de Co2 por ano:', "%.3f" %(emissao),'tCo2.')
+        print('Emissão de Co2 por mês:', "%.3f" %(emissao_mensal(emissao)),'tCo2.')
+>>>>>>> origin/main
         
         escolha2 = input('Como deseja compensar as toneladas de carbono emitidas? 1)Gerando créditos de carbono 2) Plantio de mudas ')
         
@@ -35,7 +40,11 @@ while inicio == "1":
             credito = emissao
             credito_rs = credito_reais(credito)
             
+<<<<<<< HEAD
             print('A quantidade de créditos para compensar',(emissao),'tCo2 é de:', "%.2f" %(credito), 'créditos que equivale a R$', "%.2f" %(credito_rs))
+=======
+            print('A quantidade de créditos para compensar',  "%.3f" %(emissao),'tCo2 é de:', "%.3f" %(credito), 'créditos que equivale a R$', "%.2f" %(credito_rs))
+>>>>>>> origin/main
             print('Os créditos gerados podem ser investidos em projetos de Redução das Emissões por Desmatamento e Degradação (REDD) ou de Mecanismo de Desenvolvimento Limpo (MDL).')
 
             inicio = input("Digite 1 para voltar ao inicio ou qualquer tecla para sair do programa ")
@@ -44,7 +53,11 @@ while inicio == "1":
             
             qtd_arvores = emissao * 7  #Uma tonela de Co2 emitida equivale a 7 árvores
             
+<<<<<<< HEAD
             print('A quantidade de árvores para compensar',(emissao),'tCo2 é de:', "%.2f" %(qtd_arvores), 'árvores.')
+=======
+            print('A quantidade de árvores para compensar',  "%.3f" %(emissao),'tCo2 é de:', "%.1f" %(qtd_arvores), 'árvores.')
+>>>>>>> origin/main
             print('O Projeto Plantar ajuda na platanção de árvores para compensar Co2. O valor total para o plantio é de: R$', "%.2f"%(valor_reais(qtd_arvores)),'.')
             
             inicio = input("Digite 1 para voltar ao inicio ou qualquer tecla para sair do programa ")
@@ -60,8 +73,13 @@ while inicio == "1":
         consumo_mwh = consumo_rs / 654.49 #Transformando R$ em MWh 
         emissao = emissao_anual(consumo_mwh) #Calculo de emissão por ano pela função
       
+<<<<<<< HEAD
         print('Emissão de Co2 por ano:',(emissao),'tCo2.')
         print('Emissão de Co2 por mês:',(emissao_mensal(emissao)),'tCo2.')
+=======
+        print('Emissão de Co2 por ano:', "%.3f" %(emissao),'tCo2.')
+        print('Emissão de Co2 por mês:', "%.3f" %(emissao_mensal(emissao)),'tCo2.')
+>>>>>>> origin/main
         
         escolha2 = input('Como deseja compensar as toneladas de carbono emitidas? 1)Gerando créditos de carbono 2) Plantio de mudas ')
         
@@ -70,7 +88,11 @@ while inicio == "1":
             credito = emissao
             credito_rs = credito_reais(credito)
             
+<<<<<<< HEAD
             print('A quantidade de créditos para compensar',(emissao),'tCo2 é de:', "%.2f" %(credito), 'créditos que equivale a R$', "%.2f" %(credito_rs))
+=======
+            print('A quantidade de créditos para compensar',  "%.3f" %(emissao),'tCo2 é de:', "%.3f" %(credito), 'créditos que equivale a R$', "%.2f" %(credito_rs))
+>>>>>>> origin/main
             print('Os créditos gerados podem ser investidos em projetos de Redução das Emissões por Desmatamento e Degradação (REDD) ou de Mecanismo de Desenvolvimento Limpo (MDL).')
 
             inicio = input("Digite 1 para voltar ao inicio ou qualquer tecla para sair do programa ")
@@ -79,7 +101,11 @@ while inicio == "1":
             
             qtd_arvores = emissao * 7  #Uma tonela de Co2 emitida equivale a 7 árvores
             
+<<<<<<< HEAD
             print('A quantidade de árvores para compensar',(emissao),'tCo2 é de:', "%.2f" %(qtd_arvores), 'árvores.')
+=======
+            print('A quantidade de árvores para compensar',  "%.3f" %(emissao),'tCo2 é de:', "%.1f" %(qtd_arvores), 'árvores.')
+>>>>>>> origin/main
             print('O Projeto Plantar ajuda na platanção de árvores para compensar Co2. O valor total para o plantio é de: R$', "%.2f"%(valor_reais(qtd_arvores)),'.')
             
             inicio = input("Digite 1 para voltar ao inicio ou qualquer tecla para sair do programa ")
