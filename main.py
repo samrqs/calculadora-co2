@@ -45,7 +45,7 @@ while inicio == "1":
             qtd_arvores = emissao * 7  #Uma tonela de Co2 emitida equivale a 7 árvores
             
             print('A quantidade de árvores para compensar',  "%.3f" %(emissao),'tCo2 é de:', "%.1f" %(qtd_arvores), 'árvores.')
-            print('O Projeto Plantar ajuda na platanção de árvores para compensar Co2. O valor total para o plantio é de: R$', "%.2f"%(valor_reais(qtd_arvores)),'.')
+            print('O Projeto Plantar ajuda na plantação de árvores para compensar Co2. O valor total para o plantio é de: R$', "%.2f"%(valor_reais(qtd_arvores)),'.')
             
             inicio = input("Digite 1 para voltar ao inicio ou qualquer tecla para sair do programa ")
             
@@ -80,7 +80,7 @@ while inicio == "1":
             qtd_arvores = emissao * 7  #Uma tonela de Co2 emitida equivale a 7 árvores
             
             print('A quantidade de árvores para compensar',  "%.3f" %(emissao),'tCo2 é de:', "%.1f" %(qtd_arvores), 'árvores.')
-            print('O Projeto Plantar ajuda na platanção de árvores para compensar Co2. O valor total para o plantio é de: R$', "%.2f"%(valor_reais(qtd_arvores)),'.')
+            print('O Projeto Plantar ajuda na plantação de árvores para compensar Co2. O valor total para o plantio é de: R$', "%.2f"%(valor_reais(qtd_arvores)),'.')
             
             inicio = input("Digite 1 para voltar ao inicio ou qualquer tecla para sair do programa ")
             
